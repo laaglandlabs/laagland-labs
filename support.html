@@ -16,6 +16,13 @@
 <label>Categorie<select name="Categorie" required><option value="" disabled selected>Kies een onderwerp</option><option>Algemene vraag</option><option>Vraag over LoonLoop</option><option>Bugmelding</option><option>Suggestie</option><option>Samenwerking</option><option>Andere</option></select></label>
 <label>Bericht<textarea name="Bericht" rows="6" maxlength="10000" required placeholder="Waarmee kunnen we je helpen?"></textarea></label>
 <p class="form-privacy">We gebruiken je gegevens uitsluitend om je bericht te beantwoorden. Het formulier wordt verwerkt via Web3Forms. Lees ons <a href="privacy.html">privacybeleid</a>.</p>
-<button class="btn btn-primary" type="submit">Bericht versturen <span aria-hidden="true">↗</span></button><p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+<div class="h-captcha"
+     data-captcha="true"
+     data-theme="dark"
+     data-lang="nl">
+</div>
+  <button class="btn btn-primary" type="submit">Bericht versturen <span aria-hidden="true">↗</span></button><p id="form-status" class="form-status" role="status" aria-live="polite"></p>
 </form></section></main>
-<footer><div class="container footer"><div class="footer-brand"><img src="assets/l3-logo-approved.png" width="46" height="46" alt=""><div><strong>LAAGLAND LABS</strong><small>Built on caffeine, stubbornness, and insufficient funding.</small></div></div><div class="footer-links"><a href="privacy.html">Privacy</a><a href="support.html">Support</a><span>© <span id="year">2026</span> Laagland Labs</span></div></div></footer><script src="script.js"></script></body></html>
+<footer><div class="container footer"><div class="footer-brand"><img src="assets/l3-logo-approved.png" width="46" height="46" alt=""><div><strong>LAAGLAND LABS</strong><small>Built on caffeine, stubbornness, and insufficient funding.</small></div></div><div class="footer-links"><a href="privacy.html">Privacy</a><a href="support.html">Support</a><span>© <span id="year">2026</span> Laagland Labs</span></div></div></footer><script src="script.js"></script>
+<script src="https://web3forms.com/client/script.js" async defer></script>
+</body></html>
