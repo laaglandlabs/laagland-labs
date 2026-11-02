@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Laagland Labs L cubed logo">
+<rect width="240" height="240" rx="48" fill="#172328"/>
+<path d="M47 46h25v119h78v25H47z" fill="#F5F8F6"/>
+<path d="M163 53h33q20 0 20 18 0 14-13 19 16 4 16 21 0 21-24 21h-37v-18h34q8 0 8-7 0-7-9-7h-25V84h24q8 0 8-7 0-6-8-6h-27z" fill="#80E0BA"/>
+<path d="M45 208h119q31 0 38-30" stroke="#80E0BA" stroke-width="9" stroke-linecap="round" fill="none"/>
+<path d="M36 33h82" stroke="#80E0BA" stroke-width="5" stroke-linecap="round" opacity=".65"/>
+</svg>
