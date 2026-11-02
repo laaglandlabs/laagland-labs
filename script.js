@@ -1,0 +1,4 @@
+document.getElementById('year').textContent = new Date().getFullYear();
+
+const form=document.getElementById('contact-form');
+if(form){form.addEventListener('submit',async(event)=>{event.preventDefault();const status=document.getElementById('form-status');const button=form.querySelector('button[type="submit"]');status.classList.remove('error');status.textContent='Bericht wordt verstuurd…';button.disabled=true;try{const response=await fetch(form.action,{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}});const result=await response.json();if(!response.ok||!result.success)throw new Error('Submission failed');form.reset();status.textContent='Bedankt! Je bericht is verstuurd.';}catch(error){status.classList.add('error');status.textContent='Versturen is niet gelukt. Probeer het later opnieuw.';}finally{button.disabled=false;}});}
