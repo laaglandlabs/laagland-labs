@@ -1,9 +1,8 @@
-Laagland Labs v1.4 — Support form test
+LAAGLAND LABS v1.5 — UPDATE PACKAGE
+Upload the files from this ZIP to the ROOT of the existing GitHub repository, preserving the folder structure. Replace index.html, support.html, privacy.html, styles.css and script.js. Add assets/energy-can.svg.
 
-This is a focused integration test on the existing v1.4 design, NOT the complete Dutch v1.5 rebuild.
+IMPORTANT: This is an update package, NOT a complete standalone website. Keep all existing files in the assets/ folder on GitHub, including l3-logo-approved.png, loonloop-icon.svg, and favicon.svg. Do not delete or replace the assets folder wholesale.
 
-Open support.html on a deployed GitHub Pages website and submit a test message. The form requires internet access. Check spam folder. The API access key is public by design.
+The five screenshot slides are intentionally marked placeholders, not fabricated screenshots. The Web3Forms key is kept from the existing published support.html; subject changed to Laagland Labs - Feedback. hCaptcha included. Submit one live test after publishing.
 
-Web3Forms handles submissions; check service settings for CAPTCHA and domain restrictions. No end-to-end delivery has been tested by the assistant.
-
-The five app screenshots and agreed v1.5 homepage redesign are intentionally deferred.
+Privacy policy remains explicitly provisional until app release and legal review.
